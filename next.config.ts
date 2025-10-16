@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      "images.unsplash.com", // For your hero image
+      "randomuser.me", // For student avatars
+    ],
+  },
 };
 
 export default nextConfig;
