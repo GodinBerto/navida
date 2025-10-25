@@ -63,13 +63,9 @@ export default function Navbar() {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden p-2 rounded-lg hover:bg-accent transition"
+          className="md:hidden p-2 rounded-lg hover:bg-blue-700 hover:text-white transition"
         >
-          {menuOpen ? (
-            <X className="w-6 h-6 text-foreground" />
-          ) : (
-            <Menu className="w-6 h-6 text-foreground" />
-          )}
+          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6 " />}
         </button>
       </nav>
 
