@@ -77,9 +77,11 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Right column (Dark card) */}
-        <div className="bg-blue-700 text-white rounded-2xl p-10 flex flex-col justify-between">
-          <div>
-            <div className="bg-blue-500/60 p-3 rounded-lg inline-block mb-4">
+        <div className="bg-blue-700 text-white rounded-2xl p-10 flex flex-col justify-between relative overflow-hidden">
+          <div className="bg-transparent border-10 border-blue-500/30 rounded-full h-[200px] w-[200px] absolute -left-30 z-0"></div>
+          <div className="bg-transparent border-10 border-blue-500/30 rounded-full h-[500px] w-[500px] absolute -bottom-100 -right-40 z-0"></div>
+          <div className="relative z-10">
+            <div className="bg-blue-500 p-3 rounded-lg inline-block mb-4 z-10">
               <Clock className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-2xl font-semibold leading-snug mb-4">
@@ -94,7 +96,7 @@ export default function WhyChooseUs() {
           </div>
 
           <Link
-            href="#"
+            href="/apply"
             className="mt-8 inline-flex items-center gap-2 bg-blue-500/60 hover:bg-blue-600 text-white font-medium rounded-full px-6 py-3 transition-all w-fit"
           >
             Get Started <ArrowRight className="w-4 h-4" />

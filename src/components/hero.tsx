@@ -29,7 +29,14 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="mt-8 flex justify-start gap-4">
-            <Button className="px-4 py-6">Get Started</Button>
+            <Button
+              className="px-4 py-6"
+              onClick={() => {
+                window.location.href = "/apply";
+              }}
+            >
+              Get Started
+            </Button>
           </div>
         </div>
 

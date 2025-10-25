@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-blue-700 text-gray-400 py-14 px-8 md:px-16 mx-auto mt-40 relative ">
-      <div className="absolute -top-20 inset-0 w-screen h-[200px] overflow-hidden z-0">
+      <div className="absolute -top-20 inset-0 w-full h-[200px] overflow-hidden z-0">
         <Image
           src="/svg/svg_line.svg"
           alt="Decorative line background"
@@ -57,29 +57,32 @@ export default function Footer() {
         {/* Center: Links */}
         <div className="flex justify-center border-x border-gray-300 px-6">
           <div className="grid grid-cols-2 gap-x-16 gap-y-4 text-sm text-gray-300">
-            <Link href="#" className="hover:text-white transition-colors">
-              Our services +
+            <Link
+              href="/about_us"
+              className="hover:text-white transition-colors"
+            >
+              Our services
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link
+              href="/about_us"
+              className="hover:text-white transition-colors"
+            >
               About Us
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Projects
+            <Link href="/apply" className="hover:text-white transition-colors">
+              Apply
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Resources
-            </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Our Process
-            </Link>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link
+              href="/contact_us"
+              className="hover:text-white transition-colors"
+            >
               Contact
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Referral Program
-            </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Blog
+            <Link
+              href="/programs"
+              className="hover:text-white transition-colors"
+            >
+              Program
             </Link>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function About() {
         <div
           className="w-full  h-[500px] bg-cover bg-no-repeat bg-center rounded-xl relative overflow-hidden shadow-lg"
           style={{
-            backgroundImage: `url("/images/image1.jpg")`,
+            backgroundImage: `url("/images/about_us.jpg")`,
           }}
         >
           <div className="absolute inset-0 bg-black/50"></div>
