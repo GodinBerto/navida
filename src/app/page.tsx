@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <div className="relative overflow-x-hidden">
       <HeroSection />
-      <About />
+      <div className="mt-[1200px] sm:mt-[250px] lg:mt-0 md:mt-[300px]">
+        <About />
+      </div>
       <Mission />
       <Programs />
       <JoinCommunity />

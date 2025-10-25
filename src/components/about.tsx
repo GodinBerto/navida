@@ -3,11 +3,11 @@ import { Button } from "./ui/button";
 
 export default function About() {
   return (
-    <div className="items-center justify-center flex py-20 mt-[1100px] sm:mt-[250px] lg:mt-0 md:mt-[250px]">
+    <div className="items-center justify-center flex py-20 ">
       <div className="container flex flex-col lg:flex-row gap-10 px-6 lg:px-12">
         {/* Image Section */}
         <div
-          className="w-full  h-[500px] bg-cover bg-no-repeat bg-center rounded-xl relative overflow-hidden shadow-lg"
+          className="w-full h-[250] md:h-[500px] bg-cover bg-no-repeat bg-center rounded-xl relative overflow-hidden shadow-lg"
           style={{
             backgroundImage: `url("/images/about_us.jpg")`,
           }}
