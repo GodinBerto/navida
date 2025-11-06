@@ -47,7 +47,7 @@ export default function Footer() {
                 placeholder="Your email address"
                 className="w-full bg-gray-900 text-white placeholder-gray-500 rounded-full py-3 pl-4 pr-10 focus:outline-none focus:ring-1 focus:ring-gray-700"
               />
-              <button className="absolute right-1 top-1 bottom-1 bg-gray-800 hover:bg-gray-700 rounded-full p-2 flex items-center justify-center transition w-10">
+              <button className="absolute right-1 top-1 bottom-1 bg-button-primary hover:bg-button-primary/50 rounded-full p-2 flex items-center justify-center transition w-10">
                 <ArrowRight className="w-4 h-4 text-white" />
               </button>
             </div>

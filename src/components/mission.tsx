@@ -48,7 +48,7 @@ const Mission = () => {
               className="p-6 bg-white text-start hover:shadow-card transition-all duration-300 animate-fade-in-up border-border border-[1px] rounded-xl hover:bg-blue-700 group h-[350px] flex flex-col justify-between"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-4 group-hover:text-white bg-blue-100 group-hover:bg-blue-500">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-4 group-hover:text-white bg-blue-100 group-hover:bg-button-primary">
                 <feature.icon className="h-8 w-8 text-primary group-hover:text-white" />
               </div>
               <div>

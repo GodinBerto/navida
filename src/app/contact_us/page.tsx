@@ -34,7 +34,7 @@ export default function ContactUsPage() {
       <div className="bg-[url('/images/about.jpg')] bg-cover bg-center bg-no-repeat h-[200px] relative overflow-hidden flex items-center justify-center">
         <div className="w-full h-full absolute top-0 bg-black/60"></div>
         <div className="container relative">
-          <h1 className="text-gray-100 text-5xl">Contact Us</h1>
+          <h1 className="text-gray-100 text-5xl px-4">Contact Us</h1>
         </div>
       </div>
 
@@ -46,8 +46,8 @@ export default function ContactUsPage() {
               With Our Services, You Can
             </h2>
             <p className="text-muted-foreground mt-3 text-base md:text-lg max-w-2xl mx-auto">
-              Unlock your product’s full potential with a balance of usability,
-              engagement, and business strategy.
+              Unlock your product&apos;s full potential with a balance of
+              usability, engagement, and business strategy.
             </p>
           </div>
 

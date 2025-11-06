@@ -12,7 +12,7 @@ export default function HeroRightSide() {
                      hover:scale-105 transition-all duration-300 ease-in-out"
           style={{
             backgroundImage: `url("/images/image1.jpg")`,
-            backgroundPosition: "center",
+            backgroundPosition: "right",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}

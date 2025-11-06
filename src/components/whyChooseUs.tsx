@@ -80,11 +80,11 @@ export default function WhyChooseUs() {
         {/* Right column (Dark card) */}
         <div className="bg-blue-700 text-white rounded-2xl p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden">
           {/* Background circles */}
-          <div className="absolute -left-20 top-10 w-48 h-48 border-8 border-blue-500/30 rounded-full"></div>
-          <div className="absolute -bottom-20 -right-24 w-96 h-96 border-8 border-blue-500/30 rounded-full"></div>
+          <div className="absolute -left-[150px] lg:-left-20 top-10 w-48 h-48 border-8 border-blue-500/30 rounded-full"></div>
+          <div className="absolute -bottom-32 lg:-bottom-20 -right-24 w-96 h-96 border-8 border-blue-500/30 rounded-full"></div>
 
           <div className="relative z-10">
-            <div className="bg-blue-500 p-3 rounded-lg inline-block mb-4">
+            <div className="bg-button-primary  p-3 rounded-lg inline-block mb-4">
               <Clock className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-2xl font-semibold leading-snug mb-4">
@@ -98,7 +98,7 @@ export default function WhyChooseUs() {
 
           <Link
             href="/apply"
-            className="mt-8 inline-flex items-center gap-2 bg-blue-500/70 hover:bg-blue-600 text-white font-medium rounded-full px-6 py-3 transition-all w-fit"
+            className="mt-8 inline-flex items-center gap-2 bg-button-primary hover:bg-button-primary/90 text-white font-medium rounded-full px-6 py-3 transition-all w-fit relative"
           >
             Get Started <ArrowRight className="w-4 h-4" />
           </Link>

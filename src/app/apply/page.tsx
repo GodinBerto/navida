@@ -114,12 +114,6 @@ export default function ApplicationPage() {
                   answer:
                     "Once approved as a partner, you'll receive placement requests through our partner portal and email notifications.",
                 },
-                {
-                  id: "faq5",
-                  question: "How do I get paid?",
-                  answer:
-                    "Payment terms are discussed during the partnership setup. We offer competitive rates and flexible payment schedules based on completed placements.",
-                },
               ].map((faq) => (
                 <div
                   key={faq.id}

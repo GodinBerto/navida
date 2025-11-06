@@ -18,7 +18,8 @@ export default function HeroSection() {
           </div>
 
           <h1 className="lg:text-7xl text-5xl font-semibold  text-gray-900 fredka">
-            Welcome to <span className=" text-blue-700">Navida</span> Recruiting
+            Welcome to <br />
+            <span className=" text-blue-700">Navida</span> Recruiting <br />
             and Training Center
           </h1>
 
